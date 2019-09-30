@@ -75,8 +75,6 @@ public class FilesShower extends AppCompatActivity implements AdapterView.OnItem
         try {
             if (item.contains("FILE")) {
 
-
-
                 String[] itemTrim = item.split(" ");
                 URI uri = null;
                 String path = itemTrim[0];
